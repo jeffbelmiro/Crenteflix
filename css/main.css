@@ -1,6 +1,6 @@
 :root{
-    --vermelho: red;
-    --preta: black;
+    --vermelho: #c6fcff;
+    --preta:#9900fa;
 }
 
 *{
@@ -32,17 +32,19 @@ header .logo{
 }
 
 header nav a{
-    text-decoration: aliceblue;
-    color: aliceblue;
-    margin-right: 10px;    
+    text-decoration: white;
+    color: white;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;    
 }
 
 /*
 Coisas separadas para o filme principal.
 */
-.filme-principal{
+.album-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0, 0, 0,.50),rgba(0,0,0,.50)100%), url('../img/dexter.jpg');
+    background: linear-gradient(rgba(0, 0, 0,.50),rgba(0,0,0,.50)100%), url('../img/comunidade.jfif');
     height: 400px;
     background-size: cover;
 
@@ -52,7 +54,7 @@ Coisas separadas para o filme principal.
     align-items: flex-start;
 }
 
-.filme-principal .descricao{
+.album-principal .descricao{
     margin-bottom: 40px;
     width: 60%;
     text-align: justify;
@@ -64,8 +66,9 @@ Coisas separadas para o filme principal.
 
 .titulo{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 40px;
+    font-size: 20px;
     margin-bottom: 15px;
+    margin-top: 35px;
 
 }
 
@@ -95,4 +98,8 @@ Coisas separadas para o filme principal.
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.video{
+    display: flex;
 }
